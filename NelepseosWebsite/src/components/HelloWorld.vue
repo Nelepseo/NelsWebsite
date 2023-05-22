@@ -5,24 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="greetings">
+  <div class="text-center font-medium text-4xl mt-2.5">
     <h1 style="color: black">{{ msg }}</h1>
   </div>
 </template>
-
-<style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
-</style>
